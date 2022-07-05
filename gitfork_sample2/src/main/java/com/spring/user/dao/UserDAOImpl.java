@@ -1,6 +1,7 @@
 package com.spring.user.dao;
 
 public class UserDAOImpl implements UserDAO {
+
 	
 	//공통 : 시작 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	
@@ -17,6 +18,11 @@ public class UserDAOImpl implements UserDAO {
 	
 	//기진 : 시작 ########################################
 	
+	@Override
+	public void getKijin() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	//기진 : 끝 ########################################
 

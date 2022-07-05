@@ -1,12 +1,14 @@
 package com.spring.user.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.spring.user.service.UserService;
 
 @RequestMapping(value = "/user")
+@Controller
 public class UserController {
 
 	//공통 : 시작 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -27,7 +29,11 @@ public class UserController {
 	
 	
 	//기진 : 시작 ########################################
-	
+	@GetMapping(value = "/kijin")
+	public String kijin() {
+		
+		return "/user/kijin";
+	}
 	
 	//기진 : 끝 ########################################
 }
