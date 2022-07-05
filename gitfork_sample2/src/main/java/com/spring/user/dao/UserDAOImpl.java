@@ -34,7 +34,8 @@ public class UserDAOImpl implements UserDAO {
 	
 	@Override
 	public void getKijin() {
-		// TODO Auto-generated method stub
+		System.out.println("모락모락 아니고");
+		System.out.println("모락모락입니다");
 		
 	}
 	

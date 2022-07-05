@@ -23,8 +23,12 @@
 <!-- @@@@@@@@@@@@@@@@@@@ 유진 : 끝 @@@@@@@@@@@@@@@@@@@-->
 
 <!-- ################## 기진 : 시작 ##################-->
-	<select id="">
+	<select id="kijinUser">
 		select * form user where uesr_id=${id}
+	</select>
+	
+	<select id="">
+		select * form user where uesr_pwd=${pw}
 	</select>
 <!-- ################## 기진 : 끝 ##################-->
 </mapper>
