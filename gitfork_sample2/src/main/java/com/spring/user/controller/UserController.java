@@ -29,6 +29,11 @@ public class UserController {
 
 	//유진 : 시작 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	
+	@GetMapping(value = "yoojin")
+	public String yoojin() {
+		return "/user/yoojin";
+	}
+	
 	//유진 : 끝 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	
 	
