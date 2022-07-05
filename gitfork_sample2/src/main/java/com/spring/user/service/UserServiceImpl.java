@@ -15,6 +15,7 @@ public class UserServiceImpl implements UserService {
 		}
 	//공통 : 시작 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
 	//연수 : 시작 ==============================================
 		@Override
 		public void service_yeonsoo() {
@@ -36,6 +37,10 @@ public class UserServiceImpl implements UserService {
 	
 	
 	//기진 : 시작 ########################################
+		@Override
+		public void kijinUser() {
+			return ;
+		}
 	
 	
 	//기진 : 끝 ########################################

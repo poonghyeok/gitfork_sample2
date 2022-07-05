@@ -4,6 +4,7 @@ import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class UserDAOImpl implements UserDAO {
+
 	
 	//공통 : 시작 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	@Autowired
@@ -31,6 +32,11 @@ public class UserDAOImpl implements UserDAO {
 	
 	//기진 : 시작 ########################################
 	
+	@Override
+	public void getKijin() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	//기진 : 끝 ########################################
 
