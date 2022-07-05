@@ -1,11 +1,13 @@
 package com.spring.user.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.spring.user.service.UserService;
 
+@Controller
 @RequestMapping(value = "/user")
 public class UserController {
 
@@ -22,6 +24,11 @@ public class UserController {
 	//연수 : 끝 ==============================================
 
 	//유진 : 시작 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	
+	@GetMapping(value = "yoojin")
+	public String yoojin() {
+		return "/user/yoojin";
+	}
 	
 	//유진 : 끝 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	

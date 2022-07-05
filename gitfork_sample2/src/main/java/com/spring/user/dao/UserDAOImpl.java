@@ -1,8 +1,13 @@
 package com.spring.user.dao;
 
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class UserDAOImpl implements UserDAO {
 	
 	//공통 : 시작 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	@Autowired
+	private SqlSession yoojinSession;
 	
 	//공통 : 시작 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -11,6 +16,11 @@ public class UserDAOImpl implements UserDAO {
 	//연수 : 끝 ==============================================
 
 	//유진 : 시작 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@Override
+	public void service_yoojin() {
+	
+		return ;
+	}
 	
 	//유진 : 끝 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	

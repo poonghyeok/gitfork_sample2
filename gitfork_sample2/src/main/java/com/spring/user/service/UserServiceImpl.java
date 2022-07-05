@@ -20,6 +20,12 @@ public class UserServiceImpl implements UserService {
 	//연수 : 끝 ==============================================
 
 	//유진 : 시작 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		@Override
+		public void service_yoojin() {
+			
+			System.out.println("난유진이다.");
+			return ;
+		}
 	
 	//유진 : 끝 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	
