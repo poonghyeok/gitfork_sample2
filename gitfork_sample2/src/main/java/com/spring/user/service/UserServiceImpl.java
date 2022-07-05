@@ -39,6 +39,11 @@ public class UserServiceImpl implements UserService {
 	//기진 : 시작 ########################################
 		@Override
 		public void kijinUser() {
+			System.out.println("모닥모닥");
+			System.out.println("모닥모닥");
+			System.out.println("모닥모닥");
+			System.out.println("모닥모닥");
+			System.out.println("모닥모닥");
 			return ;
 		}
 	

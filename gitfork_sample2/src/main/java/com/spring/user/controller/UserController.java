@@ -10,7 +10,6 @@ import com.spring.user.service.UserService;
 
 @Controller
 @RequestMapping(value = "/user")
-@Controller
 public class UserController {
 
 	//공통 : 시작 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -41,6 +40,13 @@ public class UserController {
 	//기진 : 시작 ########################################
 	@GetMapping(value = "/kijin")
 	public String kijin() {
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
 		
 		return "/user/kijin";
 	}
